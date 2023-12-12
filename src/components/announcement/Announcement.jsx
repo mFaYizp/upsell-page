@@ -1,6 +1,6 @@
 import React from "react";
 import "./announcement.css";
-import { VerifiedOutlined } from "@mui/icons-material";
+import { FavoriteBorderOutlined, LocalShippingOutlined, PublishedWithChangesOutlined, VerifiedOutlined } from "@mui/icons-material";
 
 const Announcement = () => {
   return (
@@ -11,15 +11,15 @@ const Announcement = () => {
           <span>30-DAY SATISFACTION GUARANTEE</span>
         </div>
         <div className="announcement-items">
-          <VerifiedOutlined />
+          <LocalShippingOutlined />
           <span>Free delivery on orders over $40.00</span>
         </div>
         <div className="announcement-items">
-          <VerifiedOutlined />
+          <FavoriteBorderOutlined />
           <span>50.000+ HAPPY CUSTOMERS</span>
         </div>
         <div className="announcement-items">
-          <VerifiedOutlined />
+          <PublishedWithChangesOutlined />
           <span>100% Money Back Guarantee</span>
         </div>
       </div>
