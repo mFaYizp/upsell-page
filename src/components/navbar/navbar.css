@@ -1,0 +1,20 @@
+.navbar{
+    width: 100vw;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 127px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-img{
+    height: 36px;
+}
+
+.sponsors{
+    height: 32px;
+}
