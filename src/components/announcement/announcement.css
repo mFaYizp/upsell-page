@@ -1,0 +1,29 @@
+.announcement {
+  width: 100vw;
+  background-color: #252f3d;
+  color: white;
+}
+
+.announcement-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-inline: 127px;
+}
+
+.announcement-items {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-items span {
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
