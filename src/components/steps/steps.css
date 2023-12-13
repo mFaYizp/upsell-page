@@ -1,0 +1,47 @@
+.steps {
+  width: 100vw;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.steps-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 127px;
+}
+
+.steps-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.progress {
+  font-weight: 700;
+}
+
+.rounded {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.green {
+  color: white;
+  background-color: #85bf55;
+}
+
+.current {
+  color: white;
+  background-color: #2c7ef8;
+}
+
+.default {
+  color: #2c7ef8;
+  border: #2c7ef8 2px solid;
+}
