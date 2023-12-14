@@ -317,3 +317,21 @@
 .guarantee-container {
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 20px;
+  }
+
+  .header span {
+    font-size: 32px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .left{
+    display: none;
+  }
+}

@@ -60,6 +60,10 @@
     gap: 8px;
   }
 
+  .steps-item span{
+    font-size: 12px;
+  }
+
   .rounded {
     height: 15px;
     width: 15px;
