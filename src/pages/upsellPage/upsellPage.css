@@ -288,16 +288,28 @@
   margin: 0;
 }
 
-.info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
 }
 
-.info span{
-    color: #F82C2C;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
+.info span {
+  color: #f82c2c;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.guarantee-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+ margin-top: 20px;
+}
+
+.guarantee-container img {
+  width: 88px;
+  height: auto;
 }

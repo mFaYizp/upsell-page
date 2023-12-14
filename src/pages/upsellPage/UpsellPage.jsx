@@ -153,6 +153,10 @@ const Upsell = () => {
                     <span>No thanks, I don't want this.</span>
                   </div>
                 </div>
+                <div className="guarantee-container">
+                  <img src="assets/guarantee.png" alt="guarantee"/>
+                  <span>If you are not completely thrilled with your Clarifion - We have a <b>30 day satisfaction guarantee</b>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</span>
+                </div>
               </div>
             </div>
           </div>
