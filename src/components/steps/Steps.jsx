@@ -9,21 +9,21 @@ const Steps = () => {
           <div className="rounded green">
             <Done />
           </div>
-          <span><p>Step 1 :</p> Cart Review</span>
+          <p><span>Step 1 :</span> Cart Review</p>
         </div>
         <div className="steps-item">
           <div className="rounded green">
             <Done />
           </div>
-          <span><p>Step 2 :</p> Checkout</span>
+          <p><span>Step 2 :</span> Checkout</p>
         </div>
         <div className="steps-item progress">
           <div className="rounded current">3</div>
-          <span><p>Step 3 :</p> Special Offer</span>
+          <p><span>Step 3 :</span> Special Offer</p>
         </div>
         <div className="steps-item">
           <div className="rounded default">4</div>
-          <span><p>Step 4 :</p> Confirmation</span>
+          <p><span>Step 4 :</span> Confirmation</p>
         </div>
       </div>
     </section>
