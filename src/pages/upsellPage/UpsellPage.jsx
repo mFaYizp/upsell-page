@@ -96,6 +96,13 @@ const Upsell = () => {
                       <Star fontSize="small" />
                       <Star fontSize="small" />
                     </div>
+                    <div className="stars-responsive">
+                      <Star fontSize="" />
+                      <Star fontSize="" />
+                      <Star fontSize="" />
+                      <Star fontSize="" />
+                      <Star fontSize="" />
+                    </div>
                     <div className="stock">
                       <img src="/assets/dock-dot.png" alt="indicator" />
                       <span>12 left in Stock</span>
@@ -106,6 +113,10 @@ const Upsell = () => {
                     </div>
                   </div>
                 </div>
+                    <div className="desc-responsive">
+                      Simply plug a Clarifion into any standard outlet and
+                      replace bulky, expensive air purifiers with a simple.
+                    </div>
                 <div className="advantages">
                   <div className="advantage">
                     <Check />
