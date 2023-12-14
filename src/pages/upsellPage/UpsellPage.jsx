@@ -7,10 +7,12 @@ import Steps from "../../components/steps/Steps";
 import {
   ArrowForward,
   Check,
+  LockOutlined,
   Star,
   StarRate,
   Verified,
 } from "@mui/icons-material";
+import Payment from "../../components/payments/Payment";
 
 const Upsell = () => {
   return (
@@ -140,8 +142,15 @@ const Upsell = () => {
                   <div className="payment-options">
                     <div>Free shipping</div>
                     <hr />
-                    <div>Secure 256-bit SSL encryption.</div>
+                    <div>
+                      <LockOutlined fontSize="" className="lock-icon" />
+                      Secure 256-bit SSL encryption.
+                    </div>
                     <hr />
+                    <Payment />
+                  </div>
+                  <div className="info">
+                    <span>No thanks, I don't want this.</span>
                   </div>
                 </div>
               </div>

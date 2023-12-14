@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
+
+.option{
+   display: flex;
+   align-items: center;
+}
+
+.option-img{
+    width: 24px;
+    height: 14px;
+}
