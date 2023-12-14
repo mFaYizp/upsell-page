@@ -45,3 +45,28 @@
   color: #2c7ef8;
   border: #2c7ef8 2px solid;
 }
+
+@media (max-width: 768px) {
+  .steps {
+    margin: 0;
+  }
+
+  .steps-container {
+    padding: 20px;
+  }
+
+  .steps-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .rounded {
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+  }
+
+  .steps-item p {
+    display: none;
+  }
+}
