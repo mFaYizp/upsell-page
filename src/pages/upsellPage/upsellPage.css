@@ -306,10 +306,14 @@
   display: flex;
   gap: 16px;
   align-items: center;
- margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .guarantee-container img {
   width: 88px;
   height: auto;
+}
+
+.guarantee-container {
+  font-weight: 400;
 }
