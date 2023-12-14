@@ -23,7 +23,7 @@ const Announcement = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % announcementItems.length);
-    }, 3000); // Change the interval duration as needed (e.g., 5000ms = 5 seconds)
+    }, 5000); 
 
     return () => clearInterval(interval); 
   }, []);

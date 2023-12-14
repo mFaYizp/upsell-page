@@ -11,7 +11,7 @@
   padding-top: 13px;
   padding-bottom: 13px;
   margin-inline: 127px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .announcement-items {
@@ -32,12 +32,17 @@
 @media (max-width: 768px) {
 
   .announcement-container {
+    margin-inline: 20px;
     display: inline-flexbox;
     justify-content: center;
+    position: relative;
+    padding: 20px;
   }
 
   .announcement-items {
+    width: 100%;
     display: flex;
+    position: absolute;
     align-items: center;
     opacity: 0;
     transform: translateX(-100%);
@@ -45,6 +50,7 @@
   }
   
   .announcement-items.active {
+    width: 100%;
     opacity: 1;
     transform: translateX(0);
   }
