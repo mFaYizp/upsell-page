@@ -218,9 +218,16 @@
 
 .offer {
   display: flex;
+  align-items: center;
+  gap: 10px;
   background-color: #edf3fd;
   border-radius: 10px;
-  padding: 12px 16px 12xp 16px;
+  padding: 12px 16px 12px 16px;
+}
+
+.offer p {
+  font-size: 16px;
+  margin: 0;
 }
 
 .offer span {
@@ -231,9 +238,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 12px;
-  height: auto;
-  width: 32px;
+  height: 27px;
+  width: 27px;
+  padding: 5px;
   background-color: #2c7ef8;
   border-radius: 50%;
   color: white;
@@ -258,6 +265,11 @@
   color: white;
   background-color: #59ae43;
   gap: 20px;
+  cursor: pointer;
+}
+
+.discount-button:hover {
+  background-color: #6fa162;
 }
 
 .payment-options {
@@ -271,7 +283,7 @@
   font-size: 12px;
 }
 
-.payment-options div {
+.payment-options .advanced {
   display: flex;
   align-items: center;
 }
@@ -280,12 +292,20 @@
   padding-right: 10px;
 }
 
-.payment-options hr {
+.payment-options .advanced-hr {
   border: 1px solid #cfcfcf;
   height: 16px;
   overflow: visible;
   padding: 0;
   margin: 0;
+}
+
+.payment-responsive {
+  display: none;
+}
+
+.horizontal-hr{
+  display: none;
 }
 
 .stars-responsive {
@@ -379,6 +399,7 @@
   }
 
   .product-info {
+    gap: 12px;
   }
 
   .product-name h1 {
@@ -419,5 +440,81 @@
     font-size: 12px;
     text-align: center;
     margin-top: -10px;
+  }
+
+  .advantages {
+    gap: 12px;
+  }
+
+  .advantage {
+  }
+
+  .advantage span {
+    font-size: 12px;
+  }
+
+  .check {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+  }
+
+  .offer {
+    gap: 16px;
+  }
+
+  .modulator {
+    justify-content: center;
+    height: 14px;
+    width: 14px;
+    padding: 10px;
+  }
+
+  .offer p {
+    font-size: 14px;
+  }
+
+  .discount-button {
+    font-size: 14px;
+    gap: 16px;
+  }
+
+  .payment-options {
+    justify-content: inherit;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .payment-options .advanced {
+    display: none;
+  }
+
+  .advanced-hr {
+    display: none;
+  }
+
+  .payment-responsive {
+    display: flex;
+gap: 12px;
+    /* justify-content: space-between; */
+  }
+
+  .payment-responsive div {
+    display: flex;
+    align-items: center;
+  }
+
+  .payment-responsive .responsive-vertical-hr {
+    border: 1px solid #cfcfcf;
+    height: 14px;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+  }
+
+  .horizontal-hr{
+    display: flex;
+    border: 1px solid #CFCFCF; 
+    width: 289px;
   }
 }

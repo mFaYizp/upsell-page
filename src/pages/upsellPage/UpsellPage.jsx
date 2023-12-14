@@ -113,25 +113,25 @@ const Upsell = () => {
                     </div>
                   </div>
                 </div>
-                    <div className="desc-responsive">
-                      Simply plug a Clarifion into any standard outlet and
-                      replace bulky, expensive air purifiers with a simple.
-                    </div>
+                <div className="desc-responsive">
+                  Simply plug a Clarifion into any standard outlet and replace
+                  bulky, expensive air purifiers with a simple.
+                </div>
                 <div className="advantages">
                   <div className="advantage">
-                    <Check />
+                    <Check className="check" />
                     <span>
                       Negative Ion Technology may <b>help with allergens</b>
                     </span>
                   </div>
                   <div className="advantage">
-                    <Check />
+                    <Check className="check" />
                     <span>
                       Designed for <b>air rejuvenation</b>
                     </span>
                   </div>
                   <div className="advantage">
-                    <Check />
+                    <Check className="check" />
                     <span>
                       <b>Perfect for every room</b> in all types of places.
                     </span>
@@ -151,13 +151,22 @@ const Upsell = () => {
                     <ArrowForward />
                   </div>
                   <div className="payment-options">
-                    <div>Free shipping</div>
-                    <hr />
-                    <div>
+                    <div className="payment-responsive">
+                      <div>Free shipping</div>
+                      <hr className="responsive-vertical-hr"/>
+                      <div>
+                        <LockOutlined fontSize="" className="lock-icon" />
+                        Secure 256-bit SSL encryption.
+                      </div>
+                    </div>
+                    <div className="advanced">Free shipping</div>
+                    <hr className="advanced-hr" />
+                    <div className="advanced">
                       <LockOutlined fontSize="" className="lock-icon" />
                       Secure 256-bit SSL encryption.
                     </div>
-                    <hr />
+                    <hr className="advanced-hr" />
+                    <hr className="horizontal-hr"/>
                     <Payment />
                   </div>
                   <div className="info">
@@ -165,8 +174,13 @@ const Upsell = () => {
                   </div>
                 </div>
                 <div className="guarantee-container">
-                  <img src="assets/guarantee.png" alt="guarantee"/>
-                  <span>If you are not completely thrilled with your Clarifion - We have a <b>30 day satisfaction guarantee</b>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</span>
+                  <img src="assets/guarantee.png" alt="guarantee" />
+                  <span>
+                    If you are not completely thrilled with your Clarifion - We
+                    have a <b>30 day satisfaction guarantee</b>. Please refer to
+                    our return policy at the bottom of the page for more
+                    details. Happy Shopping!
+                  </span>
                 </div>
               </div>
             </div>
