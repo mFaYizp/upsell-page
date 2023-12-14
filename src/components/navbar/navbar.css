@@ -29,3 +29,17 @@
 .sponsors {
   height: 32px;
 }
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 20px;
+  }
+
+  .logo-img {
+    height: 24px;
+  }
+
+  .sponsors {
+    height: 20px;
+  }
+}
